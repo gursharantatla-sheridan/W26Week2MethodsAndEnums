@@ -29,6 +29,17 @@
 
             Console.WriteLine("Area = " + area);
             Console.WriteLine("Circum = " + circum);
+            Console.WriteLine("\n\n");
+
+
+
+            Console.Write("Enter a number: ");
+            int n;
+
+            if (int.TryParse(Console.ReadLine(), out n))
+                Console.WriteLine("n = " + n);
+            else
+                Console.WriteLine("Invalid input, please try again");
         }
 
         // output parameters
